@@ -29,10 +29,13 @@ nav{
 
 nav ul li{
     display: inline;
-    padding-right: 30px;
-    padding-left: 5px;
-
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 2px #333;
+    background-image: radial-gradient(#586F6B, black);
+    border-radius: 15%;
 }
+
 
 /* INDEX */
 
@@ -84,6 +87,13 @@ nav ul li{
     background-position: center;
     grid-column: 3/3;
     grid-row: 4/4;
+}
+
+/* TRANSITIONS */
+
+.caja1:hover{
+    transition: 2s;
+    height: 700px;
 }
 
 /* STAFF */
